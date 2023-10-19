@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Define the directory path for your images
-IMAGE_DIR = "D:/Code/Web_Dev/Chrome_Home_Page/static/img/"
+IMAGE_DIR = "/static/img/"
 
 # Function to get a random image from the directory
 def get_random_image():
